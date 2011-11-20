@@ -1,0 +1,367 @@
+body
+{
+  margin: 0;
+  padding: 0;
+}
+
+div#container
+{
+  background-color: #FFFFCC;
+  margin: 0 auto;
+  padding: 0;
+  width: 1530px;
+}
+
+html
+{
+  margin: 0;
+  padding: 0;
+}
+
+div
+{
+  margin: 0;
+  padding: 0;
+}
+
+p
+{
+  margin: 0;
+  padding: 0;
+}
+
+div.head
+{
+  background-color: #FFCC00;
+  margin: 0;
+  padding: 0;
+  position:relative;
+}
+
+div.title
+{
+  text-align: center;
+  font-weight: bold;
+  font-size: 36pt;
+  font-family: serif;
+  color: #CC3300;
+  margin: 0;
+  padding: 0;
+}
+
+div.subheader
+{
+  text-align: center;
+  font-size: 12pt;
+  font-weight: bold;
+  font-family: Helvetica;
+  color: #3f3c3c;
+  margin: 0;
+  padding: 0;
+}
+
+p.title
+{
+  text-align: center;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.line
+{
+  display: inline-block;
+}
+
+div.left_panel
+{
+  vertical-align: top;
+  display: inline-block;
+  width: 280px;
+  background-color: #c7cf5e;
+  margin: 0;
+  padding: 0;
+  height:1100px;
+}
+
+div.right_panel
+{
+  vertical-align: top;
+  display: inline-block;
+  width: 250px;
+  background-color: #c7cf5e;
+  margin: 0;
+  padding: 0;
+  height: 1100px;
+}
+
+div.main
+{
+  vertical-align: top;
+  display: inline-block;
+  width: 1000px;
+  margin: 0;
+  padding: 0;
+}
+
+div.SectionsNavigation
+{
+  width: 100%;
+  margin: 5px;
+  padding: 0;
+  vertical-align: top;
+}
+
+
+p.SectionsNavigation
+{
+  font-size: 15pt;
+  width: 171px;
+  display: inline-block;
+  text-align: left;
+  vertical-align: top;
+  margin-left: 3px;
+}
+
+p.SectionsNavigationCurrent
+{
+  font-size: 15pt;
+  width: 171px;
+  display: inline-block;
+  text-align: left;
+  vertical-align: top;
+  margin-left: 5px;
+  background-color: #FFCC00;
+}
+
+A:link
+{
+  color: #CC3300;
+  font-weight: bold;
+  font-family: Helvetica;
+  text-decoration: none;
+}
+
+A:visited
+{
+  color: #CC3300;
+  font-weight: bold;
+  text-decoration: none;
+  font-family: Helvetica;
+}
+
+A:active
+{
+  color: #dedc31;
+  font-weight: bold;
+  text-decoration: none;
+  font-family: Helvetica;
+}
+
+A:hover
+{
+  color: #dedc31;
+  font-weight: bold;
+  text-decoration: none;
+  font-family: Helvetica;
+}
+
+div.border_line
+{
+  background-color: #ccbd32;
+  margin: 0;
+  padding: 0;
+  font-size: 3pt;
+}
+
+div.logo_img
+{
+  margin: 10px;
+  text-align: center;
+}
+
+p.category
+{
+  margin-top: 10px;
+  background-image: url('http://tent-shop.z4.ru/img/site/category.png');
+  width: 270px;
+  height: 33px;
+  text-align: center;
+  line-height: 33px;
+}
+
+div.categories
+{
+  margin: 5px;
+  font-size: 13pt;
+}
+
+
+div.cartframe
+{
+  margin-top: 20px;
+  text-align: center;
+}
+
+p.cartframe
+{
+  font-family: Helvetica;
+}
+div#bottom
+{
+  font-family: Helvetica;
+  background-color: #FFCC00;
+  width: 1510px;
+  padding: 10px;
+  text-align: center;
+}
+
+div.LoginFrame
+{
+  padding-top: 20px;
+  padding-left: 7px;
+  font-family: Helvetica;
+  text-align: left;
+}
+
+span#email
+{
+  padding-right: 16px;
+}
+
+p#new
+{
+  padding-top: 18px;
+}
+
+p#login
+{
+  padding: 20px;
+}
+
+div.main_index
+{
+  padding: 10px;
+  font-family: Helvetica;
+  color: #4e2a2a;
+  text-align: center;
+}
+
+p#index_title
+{
+  font-size: 15pt;
+  text-align: center;
+  padding-bottom: 40px;
+}
+
+p#index_text
+{
+  font-family: Serif;
+}
+
+p.catalog_category
+{
+  width: 300px;
+  display: inline-block;
+  text-align: center;
+  margin-top: 20px;
+}
+
+p#catalog_string
+{
+  margin-top: 12px;
+  text-align: left;
+  margin-left: 15px;
+}
+
+p#descr
+{
+  padding: 20px;
+  display: inline-block;
+  vertical-align: top;
+  font-family: Serif;
+}
+
+div#product_frame
+{
+  text-align: left;
+  margin-left: 15px;
+  margin-top: 20px;
+}
+
+p#product_title
+{
+  font-size: 14pt;
+  font-weight: bold;
+  padding: 5px;
+}
+
+p#in_cart
+{
+  padding-top: 5px;
+}
+
+p#curent_category
+{
+  font-weight: bold;
+  color: #4e2a2a;
+  margin-top: 10px;
+  background-image: url('http://tent-shop.z4.ru/img/site/category.png');
+  width: 270px;
+  height: 33px;
+  text-align: center;
+  line-height: 33px;
+}
+
+p.product
+{
+  width: 270px;
+  text-align: left;
+  padding-left: 20px;
+  padding-top: 5px;
+}
+
+p#current_product
+{
+  font-weight: bold;
+  color: #4e2a2a;
+  width: 270px;
+  text-align: left;
+  padding-left: 20px;
+  padding-top: 5px;
+}
+
+div.main_account
+{
+  padding: 20px;
+  font-family: Helvetica;
+  color: #4e2a2a;
+  text-align: left;
+}
+
+p#account_nav
+{
+  padding-top: 20px;
+}
+
+table#orders
+{
+  border: 1px solid black;
+  color: #4e2a2a;
+}
+
+td.orders
+{
+  padding: 5px 20px;
+}
+
+p.small_title
+{
+  padding-bottom: 20px;
+  font-weight: bold;
+}
+
+p.tb_padding
+{
+  padding: 10px 0px;
+}
+
