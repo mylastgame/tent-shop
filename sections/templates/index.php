@@ -46,7 +46,7 @@
 <div class="border_line">
   &nbsp
 </div>
-<img src="http://<?=SITE_NAME?>/img/site/123.jpg">
+<img src="http://<?php echo SITE_NAME; ?>/img/site/123.jpg">
 </div>
 <!-- Bottom -->
 <div id="bottom">

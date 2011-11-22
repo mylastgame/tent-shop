@@ -24,15 +24,15 @@ class Validator
   public function isText($text)
   {
     if(!$this->isNotEmpty($text)) return false;
-    if(preg_match("/[<>`*]/", $text)) return false;
-    if(preg_match("/--+/", $text)) return false;
+    if(strpbrk($text, '<>`*')) return false;
+    if(strpos($text, '--')) return false;
     return true;
   }
 
   public function isNumber($number)
   {
-    if(preg_match("/[\D]/", $number)) return false;
-    return true;
+    if(is_numeric($number)) return true;
+    return false;
   }
 
   public function isNotEmpty($value)
