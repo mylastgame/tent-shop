@@ -7,7 +7,7 @@ define(PASSWORD_MIN_LENGTH, 6);
 
 define(DB_HOST, "localhost");
 define(DB_USER, "akim-we_admin");
-define(DB_PASS, "Ndh4by12");
+define(DB_PASS, "");
 define(DB_DBASE, "akim-we_ts");
 define(APPLICATIONS_TABLE, "applications");
 define(SECTIONS_TABLE, "sections");
