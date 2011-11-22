@@ -6,9 +6,9 @@ define(SITE_IMG_URL, 'http://'.SITE_NAME.'/img/site/');
 define(PASSWORD_MIN_LENGTH, 6);
 
 define(DB_HOST, "localhost");
-define(DB_USER, "akim-we_admin");
+define(DB_USER, "");
 define(DB_PASS, "");
-define(DB_DBASE, "akim-we_ts");
+define(DB_DBASE, "");
 define(APPLICATIONS_TABLE, "applications");
 define(SECTIONS_TABLE, "sections");
 define(MODULES_TABLE, "modules");
